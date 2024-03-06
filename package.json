@@ -1,0 +1,19 @@
+{
+  "name": "chatbot",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "start": "npm run build && npm run dev",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "vite-plugin-dts": "^3.7.3"
+  }
+}
